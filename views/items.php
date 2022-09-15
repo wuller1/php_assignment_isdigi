@@ -27,10 +27,11 @@ foreach ($data as $category => $items) :
     foreach ($items as $item) :
         echo ("
         <div class='card border-dark mb-3' style='max-width: 18rem;'>
-            <div class='card-header'>{$item[0]}</div>
+            <div class='card-header'>{$item[0]} (Category: $category)</div>
             <div class='card-body text-dark'>
             Price: \${$item[1]}.00
             </div>
+            
         </div>");
         $item_number += 1;
     endforeach;
