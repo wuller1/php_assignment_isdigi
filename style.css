@@ -1,0 +1,10 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-width: 29%;
+    box-sizing: border-box;
+    margin: 2%;
+}
